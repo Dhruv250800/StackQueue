@@ -1,11 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using StackQueue;
 using System.Collections.Generic;
 public class Program
 {
     public static void Main(string[] args)
     {
-        Stack stack = new Stack();
-        Stack1 stack1 = new Stack1();
+        UC1_Stack1 stack = new UC1_Stack1();
+        UC2_Stack2 stack1 = new UC2_Stack2();
         stack.Push(70);
         stack.Push(30);
         stack.Push(56);
